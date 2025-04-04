@@ -34,7 +34,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: 
+  m_LockedProperties: _WavesOn
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -188,11 +188,11 @@ Material:
     - _GlossyReflections: 0
     - _HorizonDistance: 10.4
     - _IntersectionClipping: 0.26
-    - _IntersectionDistortion: 0.028
-    - _IntersectionFalloff: 0.367
-    - _IntersectionLength: 1.52
+    - _IntersectionDistortion: 0.145
+    - _IntersectionFalloff: 1
+    - _IntersectionLength: 5
     - _IntersectionRippleDist: 64
-    - _IntersectionRippleStrength: 0.351
+    - _IntersectionRippleStrength: 0.33
     - _IntersectionSize: 0.944
     - _IntersectionSource: 0
     - _IntersectionSpeed: 0.06000001
@@ -277,9 +277,9 @@ Material:
     - _VertexColorFoam: 0
     - _VertexColorWaveFlattening: 0
     - _WaveCount: 1
-    - _WaveDistance: 0.763
-    - _WaveHeight: 0
-    - _WaveNormalStr: 0.291
+    - _WaveDistance: 0.67
+    - _WaveHeight: 0.58
+    - _WaveNormalStr: 0
     - _WaveSpeed: 1
     - _WaveSteepness: 0
     - _WaveTint: 0.069
@@ -289,7 +289,7 @@ Material:
     - _ZClip: 1
     - _ZWrite: 0
     m_Colors:
-    - _BaseColor: {r: 0.09371662, g: 0.735849, b: 0.58634835, a: 1}
+    - _BaseColor: {r: 0.06852971, g: 0.41509432, b: 0.16921802, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _DepthMapBounds: {r: -402.3, g: -459.43, b: 0.0012693577, a: 0}
     - _Direction: {r: 1, g: 1, b: 0, a: 0}
@@ -298,7 +298,7 @@ Material:
     - _FoamColor: {r: 1, g: 1, b: 1, a: 0.05882353}
     - _FoamTiling: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _HorizonColor: {r: 0.2352941, g: 0.7405494, b: 1, a: 1}
-    - _IntersectionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _IntersectionColor: {r: 1, g: 1, b: 1, a: 0.24705882}
     - _NormalTiling: {r: 0.3, g: 0.3, b: 0, a: 0}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
     - _ShallowColor: {r: 0.11311854, g: 0.7735849, b: 0.49442345, a: 1}
@@ -306,7 +306,7 @@ Material:
     - _WaterColor: {r: 0.21176466, g: 0.6745098, b: 1, a: 1}
     - _WaterShallowColor: {r: 0, g: 0.9394503, b: 1, a: 1}
     - _WaveDirection: {r: 1, g: 1, b: 1, a: 1}
-    - _WaveFadeDistance: {r: 150, g: 300, b: 0, a: 0}
+    - _WaveFadeDistance: {r: 350.00003, g: 500, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &6498140463000427223
